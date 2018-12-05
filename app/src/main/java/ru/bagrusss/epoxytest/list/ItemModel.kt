@@ -21,5 +21,9 @@ class ItemModel(private val text: String) : DataBindingEpoxyModel() {
         binding.text.text = text
     }
 
+    override fun onViewDetachedFromWindow(holder: DataBindingHolder) {
+        super.onViewDetachedFromWindow(holder)
+    }
+
 
 }

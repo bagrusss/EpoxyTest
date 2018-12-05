@@ -1,6 +1,8 @@
 package ru.bagrusss.epoxytest.list.horizontal
 
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import com.airbnb.epoxy.TypedEpoxyController
 
 /**

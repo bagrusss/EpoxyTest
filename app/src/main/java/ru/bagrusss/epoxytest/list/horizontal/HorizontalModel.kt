@@ -24,6 +24,10 @@ class HorizontalModel(private val items: List<String>) : DataBindingEpoxyModel()
         controller.setData(items)
     }
 
+    override fun onViewDetachedFromWindow(holder: DataBindingHolder) {
+        super.onViewDetachedFromWindow(holder)
+    }
+
     override fun shouldSaveViewState() = true
 
 }
